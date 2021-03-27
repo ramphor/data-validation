@@ -1,0 +1,19 @@
+{
+    "name": "ramphor/data-validation",
+    "description": "Data validation for WordPress",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Puleeno Nguyen",
+            "email": "puleeno@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Ramphor\\Validation\\": "./src/"
+        }
+    }
+}
